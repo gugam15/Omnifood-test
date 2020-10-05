@@ -95,11 +95,18 @@ h1
 .main-nav li a:link, 
 .main-nav li a:visited{
     border-bottom: 2px solid transparent;  
-    
+        
 }
 
 .main-nav li a:hover, 
 .main-nav li a:active{
     border-bottom: 2px solid #e67e22;  
     transition: border-bottom 0.4s;
+}
+.row{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.main-nav li a:link{
+    padding: 0 8px;
 }
