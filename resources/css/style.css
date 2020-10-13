@@ -192,3 +192,18 @@ h3{
     transform: scale(1.03);
     opacity: 1;
 }
+.step-box{
+    margin-top: 30px;
+}
+.step-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+}
+.step-box:last-child{
+    text-align: left;
+    padding-left: 3%;
+}
+
+.app-screen{
+    width: 40%;
+}
