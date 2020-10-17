@@ -21,7 +21,8 @@ header{
 }
 
 h1
-    {margin-bottom:20px; 
+    {
+    margin-bottom:20px; 
     color: #fff;
     font-size: 240%;
     Font-weight:  300;
@@ -60,11 +61,6 @@ h1
     .btn:visited{
         transition: background-color  0.2s,  border  0.2s,  color  0.2s;
     }
-    .btn-full:link, 
-    .btn-full:visited{ }
-    
-    .btn-ghost:link, 
-    .btn-ghost:visited{ }
 
     .btn:hover,
     .btn:active{
@@ -185,11 +181,11 @@ h3{
     opacity: 0.7;
     width: 100%;
     height: auto;
-    transform: scale(1.15);
-    transition: transform 0.3s;
+    transform: scale(1.6);
+    transition: transform 0.3s, opacity 0.3s;
 }
 .meal-photo img:hover{
-    transform: scale(1.03);
+    transform: scale(1.3);
     opacity: 1;
 }
 .step-box{
@@ -206,4 +202,38 @@ h3{
 
 .app-screen{
     width: 40%;
+}
+.clearfix{
+    zoom: 1;
+    margin: 0;
+}
+.clearfix:after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.work-step div{
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;   
+    text-align: center;
+    padding: 6px;
+    float: left;
+    font-size: 150%;
+    margin-right: 10px;
+}
+.work-step{
+    margin-top: 51px;
+}
+.btn-app img{
+    width: auto;
+    height: 40px;
+    margin-top: 20px;
+}
+.section-steps{
+    padding-top: 40px;
 }
