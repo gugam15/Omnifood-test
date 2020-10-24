@@ -68,7 +68,7 @@ h2{
     text-decoration: none;
     border-radius: 200px;
     color:#fff;
-    transition:background-color 0.4s,border 0.4s, color 0.4s;
+    transition:background-color 0.2s,border 0.2s, color 0.2s;
     }
     .btn-full:link,
     .btn-full:visited
@@ -323,6 +323,7 @@ cite img{
 }
 .section-plans{
     background-color: #f4f4f4;
+    padding-top: 70px;
 }
 .plan-box{
     background-color: #fff;
@@ -352,4 +353,12 @@ cite img{
 }
 .plan-box ul li{
     padding: 5px 0;
+}
+.plan-box div:first-child{
+    background-color: #e7e0e0;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.plan-box div:last-child{
+    text-align: center;
 }
