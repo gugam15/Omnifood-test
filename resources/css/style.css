@@ -291,7 +291,7 @@ h3{
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
-    margin-top: 70px;
+    
 }
 blockquote{
     padding: 1px;
@@ -361,4 +361,7 @@ cite img{
 }
 .plan-box div:last-child{
     text-align: center;
+}
+section {
+    padding: 80px 0;
 }
