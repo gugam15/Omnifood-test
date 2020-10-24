@@ -48,32 +48,52 @@ h2{
         transform: translate(-50%,-50%);
     }
     .btn{
-        display: inline-block;
-        padding: 10px 30px; 
-        font-weight:300; 
+        display: inline-block; padding: 10px 30px; font-weight:300;
         text-decoration: none;
         border-radius  :  200px;
-        color: #fff;
-    } 
-    
+        color:#fff;
+    }
     .btn-full{
         background-color: #e67e22;
-        border:1px  solid  #cf6d17;
+        border:1px  solid  #e67e22; 
     }
-    
-    .btn-ghost{
-        border: 1px solid  #e67e22;
-        border: 1px solid #cf6d17; color:#fff;
+    .btn-ghost {
+     border:1px solid #e67e22 ;
     }
-    
     .btn:link,
-    .btn:visited{
-        transition: background-color  0.2s,  border  0.2s,  color  0.2s;
+    .btn:visited 
+    {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 200px;
+    color:#fff;
+    transition:background-color 0.4s,border 0.4s, color 0.4s;
     }
-
+    .btn-full:link,
+    .btn-full:visited
+    {
+        background-color: #e67e22;
+        border: 1px solid #e67e22;
+        margin-right: 20px;
+    } 
+    .btn-ghost:link,
+    .btn-ghost:visited{
+        color: #e67e22;
+        border: 1px solid #e67e22;
+    }
     .btn:hover,
     .btn:active{
         background-color: #cf6d17;
+    }
+    .btn-full:hover,
+    .btn-full:active   { 
+        border:1px  solid  #cf6d17 
+    } 
+    .btn-ghost:hover,
+    .btn-ghost:active  {
+       border: 1px solid #cf6d17; 
+       color:#fff;
     }
 .logo{
     height: 100px;
@@ -300,4 +320,36 @@ cite img{
 }
 .section-testimonials div h2{
     margin-top: 50px;
+}
+.section-plans{
+    background-color: #f4f4f4;
+}
+.plan-box{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+}
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.plan-price{
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
+}
+.plan-price-meal{
+    font-size: 80%;
+}
+.plan-price span{
+    font-size: 30%;
+    font-weight: 300;
+}
+.plan-box ul{
+    list-style: none;
+}
+.plan-box ul li{
+    padding: 5px 0;
 }
