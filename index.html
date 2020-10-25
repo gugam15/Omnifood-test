@@ -339,7 +339,7 @@
         <div class="row">
             <form action="#" method="POST" class="contact-form">
                 <div class="row">
-                    <div class="col span 1-of-3">
+                    <div class="col span-1-of-3">
                         <label for="name">Name</label>
                     </div>
                     <div class="col span-2-of-3">
@@ -351,9 +351,93 @@
                         />
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input 
+                        type="email"
+                        name="Email"
+                        id="Email"
+                        placeholder="Your Email"
+                        />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="find-us">How Did You Find Us</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name="find-us" id="find-us">
+                            <option value="Friends">Friends</option>
+                            <option value="Search">Search Engine</option>
+                            <option value="AD">Advertisement</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Newsletter</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="checkbox" name="news" id="news" checked required/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Drop us a line</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="Message" placeholder="Your Message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" value="Send It!">
+                    </div>
+                </div>
             </form>
         </div>
     </section>
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">iOS app</a></li>
+                    <li><a href="#">Android app</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-icons">
+                    <li>
+                        <a href="#"><ion-icon class="small-icon" name="logo-facebook"></ion-icon></a>
+                    </li>
+                    <li>
+                        <a href="#"><ion-icon class="small-icon" name="logo-twitter"></ion-icon></a>
+                    </li>
+                    <li>
+                        <a href="#"><ion-icon class="small-icon" name="logo-google"></ion-icon></a>
+                    </li>
+                    <li>
+                        <a href="#"><ion-icon class="small-icon" name="logo-instagram"></ion-icon></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+            <div class="row">
+                <p>Copyright © 2020 By Omnifood. All roghts reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
     <script src="https://unpkg.com/ionicons@5.2.1/dist/ionicons.js"></script>
 </body>
 </html>
